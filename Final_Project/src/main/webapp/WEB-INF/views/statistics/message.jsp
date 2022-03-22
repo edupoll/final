@@ -12,7 +12,6 @@
       function drawChart() {
     	  $.ajax("/statistics/message/data").done(function(rst){
     		  // console.log(rst);
-    		  
 		        var data = google.visualization.arrayToDataTable(rst);
 		
 		        var options = {
